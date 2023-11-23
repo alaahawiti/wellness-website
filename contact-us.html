@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Wellness websit </title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="websit icon" href="fittnes logo.jpeg">
+   <script defer src="scriptweb.js"></script>
+</head>
+<style>
+    body {
+        background-image:url("loginpage3.jpg");
+        background-repeat:no-repeat;
+        }
+</style>
+<body>
+    <header> 
+        <div class="header">
+         <h1>Wellness</h1>
+         <nav>
+         <ul>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="info.html">info</a></li>
+           <li><a href="healthy-food.html">food</a></li>
+           <li><a href="excersise.html">excersise</a></li>
+         </ul>
+        </nav>
+       </div> 
+     </header>  
+
+     <form id="form" action="https://formspree.io/f/myyqqyek"
+     method="POST">
+     <h5 style="color: rgb(255, 255, 255);">Registration </h5>
+     <div class="input-control">
+        <label for="">Username</label>
+       <input type="text" name="Username" required />
+     </div>
+
+     <div class="input-control">
+        <label for="">Email</label>
+       <input type="email" name="Email" required />
+     </div>
+
+     <div class="input-control">
+       <label for="">Message</label>
+       <textarea name="Message" placeholder="I'd like to chat about" type="password" cols="52" rows="4" required></textarea>
+     
+     </div>
+
+     <button translate="submit"value="Submit" onclick="ValidateEmail(document.form1.text1)">Send</button>
+   </form>
+ </body>
+</html>
